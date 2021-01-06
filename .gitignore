@@ -1,4 +1,4 @@
-data/taro_img/*
+#data/taro_img/*
 result/*
 config.php
 .idea
