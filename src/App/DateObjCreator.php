@@ -11,7 +11,7 @@ class DateObjCreator implements   \Entity\Interfaces\iDateObjCreator
     {
         $d = \DateTime::createFromFormat($format, $date);
         if (false === ($d && $d->format($format) == $date)) {
-            throw new \Exception('Неправильный форматы даты, дата должна быть в формата YYYY-MM-DD, ввели ' . $date);
+            throw new \Exception('Неправильный форматы даты, дата должна быть в формата DD-MM-YYYY, ввели ' . $date);
         }
         return $d;
     }
