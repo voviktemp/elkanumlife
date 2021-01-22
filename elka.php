@@ -12,7 +12,7 @@ use App\RenderProfile;
 $dates = require 'config.php';
 
 
-$format = 'Y-m-d';
+$format = 'd-m-Y';
 
 clearstatcache();
 
